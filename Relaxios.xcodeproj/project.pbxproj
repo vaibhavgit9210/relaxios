@@ -1,0 +1,276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB68C518AA8F22B68BBCE903 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 699B09C322C22A1D55AA909F /* AppDelegate.swift */; };
+		B1CEC79C6D8FE23D323BE3C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 121B507E64D289D5D3E535BB /* SceneDelegate.swift */; };
+		96206605561F53C7CF7C93A3 /* StormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DC4361134AAB480D1D3E47 /* StormViewController.swift */; };
+		77E09E30A41813732763BCA2 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01808C9AFED0D3FEE2D1A5DE /* PlayerView.swift */; };
+		AF3801D252C3009183B4A20C /* VideoCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED879E4933481157A7871219 /* VideoCatalog.swift */; };
+		D25F8CE5E7483DF246444C7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D7F153375FFD3E442DE5735 /* Assets.xcassets */; };
+		811711BA981FC5242C95A0E5 /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 2BD026269A7024D39642982D /* Videos */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD4CB4E482FCBFEAA52ED47F /* Relaxios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Relaxios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		699B09C322C22A1D55AA909F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		121B507E64D289D5D3E535BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23DC4361134AAB480D1D3E47 /* StormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StormViewController.swift; sourceTree = "<group>"; };
+		01808C9AFED0D3FEE2D1A5DE /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		ED879E4933481157A7871219 /* VideoCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCatalog.swift; sourceTree = "<group>"; };
+		3D7F153375FFD3E442DE5735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BD026269A7024D39642982D /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = "<group>"; };
+		E9258FEC30FD18458C48BE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77BEFF8D6128BA42CF03F808 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048DB697B35E2FAAB9AE7713 = {
+			isa = PBXGroup;
+			children = (
+				707C5B998A6CBD832BF26A85 /* Relaxios */,
+				E3DA60CF3A4AEB0C6E9901EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		707C5B998A6CBD832BF26A85 /* Relaxios */ = {
+			isa = PBXGroup;
+			children = (
+				699B09C322C22A1D55AA909F /* AppDelegate.swift */,
+				121B507E64D289D5D3E535BB /* SceneDelegate.swift */,
+				23DC4361134AAB480D1D3E47 /* StormViewController.swift */,
+				01808C9AFED0D3FEE2D1A5DE /* PlayerView.swift */,
+				ED879E4933481157A7871219 /* VideoCatalog.swift */,
+				3D7F153375FFD3E442DE5735 /* Assets.xcassets */,
+				2BD026269A7024D39642982D /* Videos */,
+				E9258FEC30FD18458C48BE7D /* Info.plist */,
+			);
+			path = Relaxios;
+			sourceTree = "<group>";
+		};
+		E3DA60CF3A4AEB0C6E9901EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD4CB4E482FCBFEAA52ED47F /* Relaxios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB63EA816998060FB09AA1B /* Relaxios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEEAC2B7DD8DAE68D16EC451 /* Build configuration list for PBXNativeTarget "Relaxios" */;
+			buildPhases = (
+				0636E4C8FC87D8C30E4C627F /* Sources */,
+				77BEFF8D6128BA42CF03F808 /* Frameworks */,
+				9BB5F03A917192E46A93E05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Relaxios;
+			productName = Relaxios;
+			productReference = FD4CB4E482FCBFEAA52ED47F /* Relaxios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBFA811BF10B64F007746BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EFB63EA816998060FB09AA1B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 052582958503A621866AF709 /* Build configuration list for PBXProject "Relaxios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 048DB697B35E2FAAB9AE7713;
+			productRefGroup = E3DA60CF3A4AEB0C6E9901EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB63EA816998060FB09AA1B /* Relaxios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BB5F03A917192E46A93E05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25F8CE5E7483DF246444C7E /* Assets.xcassets in Resources */,
+				811711BA981FC5242C95A0E5 /* Videos in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0636E4C8FC87D8C30E4C627F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB68C518AA8F22B68BBCE903 /* AppDelegate.swift in Sources */,
+				B1CEC79C6D8FE23D323BE3C7 /* SceneDelegate.swift in Sources */,
+				96206605561F53C7CF7C93A3 /* StormViewController.swift in Sources */,
+				77E09E30A41813732763BCA2 /* PlayerView.swift in Sources */,
+				AF3801D252C3009183B4A20C /* VideoCatalog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		98DC99DE1DB70FE04A15F07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F0B261718C15B044C994FDBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18B02AD24A5597040362CCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Relaxios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vaibhavkumar.relaxios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CC42E3B128ABDEA332B5689C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Relaxios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.vaibhavkumar.relaxios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		052582958503A621866AF709 /* Build configuration list for PBXProject "Relaxios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DC99DE1DB70FE04A15F07E /* Debug */,
+				F0B261718C15B044C994FDBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEEAC2B7DD8DAE68D16EC451 /* Build configuration list for PBXNativeTarget "Relaxios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B02AD24A5597040362CCB4 /* Debug */,
+				CC42E3B128ABDEA332B5689C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBFA811BF10B64F007746BE9 /* Project object */;
+}
